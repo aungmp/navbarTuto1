@@ -1,0 +1,6 @@
+@mixin mQ($para){
+    @media screen and (max-width:$para){
+        @content;
+    }
+
+}
